@@ -1,0 +1,68 @@
+* {
+  margin: 0; padding: 0; border: 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, .page {
+  height: auto;
+  min-height: 100vh;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 20px;
+}
+
+.page {
+  padding: 2em;
+}
+
+#menu {
+  background-color: black;
+  color: #ddd;
+  line-height: 4em;
+  padding: 0 1em;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+}
+
+#menu a, #menu a:link, #menu a:visited, #menu a:hover, #menu a:active {
+  color: #eee;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+#menu a:hover {
+  color: #4861A2;
+}
+
+#menu div {
+  display: inline-block;
+}
+
+.right {
+  position: absolute;
+  right: 100px;
+}
+
+h2 {
+  font-size: 3em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+#one { background-color: #fff; }
+#two { background-color: #ccc; }
+#three { background-color: #aaa; }
+#four { background-color: #888; }
+
+Resources
